@@ -16,8 +16,8 @@ This web scraper project collects dinner recipes from two websites: [allrecipes.
 
 ---
 
-```text
 ## 📁 Project Structure
+```text
 recipe_scraper/
 │
 ├── src/
@@ -30,7 +30,6 @@ recipe_scraper/
 │   ├── allrecipes_data.json
 │   └── bbcgoodfood_data.json
 │
-├── README.md
 └── requirements.txt
 ```
 
@@ -48,10 +47,14 @@ pip install -r requirements.txt
 
 ## 🚀 Running the Scrapers
 To run the Allrecipes scraper:
-     python3.11 -m src.scraper.allrecipes_scraper
+```bash
+python3.11 -m src.scraper.allrecipes_scraper
+```
 To run the BBC Good Food scraper:
-     python3.11 -m src.scraper.bbcgoodfood_scraper
-
+```bash
+python3.11 -m src.scraper.bbcgoodfood_scraper
+```
+---
 Note: A `main.py` file was considered for simplified execution, but the decision was made to run scrapers individually.
 
  
