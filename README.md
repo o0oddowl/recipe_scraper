@@ -35,6 +35,39 @@ recipe_scraper/
 
 ---
 
+## Data Output(JSON):
+```bash
+{
+    "title": "Grilled Cheese Sandwich",
+    "servings": "2",
+    "prep_time": "5",
+    "cook_time": "10",
+    "nutritions": {
+        "kcal": "400",
+        "fat (g)": "28",
+        "carbs (g)": "26",
+        "protein (g)": "11"
+    },
+    "ingredients": [
+        "4 slices white bread",
+        "3 tablespoons butter, divided",
+        "2 slices Cheddar cheese"
+    ],
+    "directions": {
+        "step 1": "Gather all ingredients.",
+        "step 2": "Preheat a nonstick skillet over medium heat. Generously butter one side of a slice of bread.",
+        "step 3": "Place bread butter-side down in the hot skillet; add 1 slice of cheese.",
+        "step 4": "Butter a second slice of bread on one side and place butter-side up on top of cheese.",
+        "step 5": "Cook until lightly browned on one side; flip over and continue cooking until cheese is melted.",
+        "step 6": "Repeat with remaining 2 slices of bread, butter, and slice of cheese. Serve and enjoy!"
+    },
+    "rating": "899",
+    "url": "https://www.allrecipes.com/recipe/23891/grilled-cheese-sandwich/"
+}
+```
+
+---
+
 ## ⚙️ Requirements
 - Python 3.11
 
