@@ -3,7 +3,7 @@ This web scraper project collects dinner recipes from two websites: [allrecipes.
 
 ---
 
-## 📄 Data Fields Collected (JSON)
+## 📄 Data Fields Collected (JSON):
 - **title** – name of the dish
 - **servings** – number of servings
 - **prep_time** – preparation time
@@ -16,7 +16,7 @@ This web scraper project collects dinner recipes from two websites: [allrecipes.
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure:
 ```text
 recipe_scraper/
 │
@@ -68,7 +68,7 @@ recipe_scraper/
 
 ---
 
-## ⚙️ Requirements
+## ⚙️ Requirements:
 - Python 3.11
 
 ### Python Libraries
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 ```
 ---
 
-## 🚀 Running the Scrapers
+## 🚀 Running the Scrapers:
 To run the Allrecipes scraper:
 ```bash
 python3.11 -m src.scraper.allrecipes_scraper
